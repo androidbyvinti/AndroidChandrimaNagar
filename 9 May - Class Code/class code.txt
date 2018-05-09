@@ -1,0 +1,76 @@
+
+Kotlin --> Installation
+
+Kotlin compiler -->
+
+Kotlin JVM based language
+
+Intellij IDEA --> IDE
+
+
+jdk path --> 
+
+
+Kotlin --> statically typed language
+
+statically typed or dynamic typed language
+
+var value = 90
+
+by a team of developers in JETBRAINS --> 2012
+
+2016 beta
+2017 stable --> 
+
+jdk --> 9 --> 
+
+java --7
+
+wrapper java language
+
+Kotlin --> java 8 / java 9 
+
+src code(.c) --> c compiler --> .exec(platform ) --> 
+
+src code(.java) -->java compiler --> error detection -->   
+(.class)bytecode(intermediate code) --> jvm(java virtual machine) --> native code
+
+src code(.kt) -->kotlin compiler --> error detection --> (.class) (intermediate code) --> jvm  --> native code
+
+
+jdk
+
+
+
+
+--> tokens --> ; white_space
+
+--> identifiers --> name of variable, of method or of constant
+
+	Rules --> 1. must start with a character, cannot start with a 			number
+		2. Case-sensitive
+		3. can be as length as possible
+		4. must not have space in between, can have _
+		
+--> keywords 
+
+--> variables --> data and a type 
+
+--> datatypes --> 
+
+	primitive type
+
+		int, char, float, long
+
+	reference type
+		
+		Int, Char, Float, Long, String, Double, 
+
+		ready methods
+
+--> constants --> variables whose value cannot be changed after defining them
+
+
+
+open source --> free install, src code, modify, re-distribute
+
