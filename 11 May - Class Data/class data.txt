@@ -1,0 +1,74 @@
+Android Studio --> 3.1.2
+
+
+--> Kotlin Plugin 
+--> new app --> new project -->
+
+
+API --> Application Package Interface --> set of features whcih u have acc. to the version
+
+--> Kitkat --> features --> no. of audience
+
+--> Nougat --> features 
+
+
+
+
+
+
+
+
+Layout -->
+
+
+Predefined Layouts --> ConstraintLayout, RelativeLayout, LinearLayout, TableLayout, GridLayout, 
+
+
+ --> parent --> child: mandatory attributes : 
+width and height
+//android: prefix --> which is used
+  
+android:layout_width: 
+android:layout_height:
+
+button, radio button, check box
+
+
+--> sp, dp, mm, in, pt, px
+
+sp or dp
+
+text:
+
+sp --> scalable pixels --> which can be scaled acc. to user preference
+
+setting --> display --> font -->small, medi, large --> sp
+
+dp --> density pixels --> which can be scaled acc. to the device screen width or height
+
+Event Handling --> Event Listeners(Predefiened Method) and Event Handlers(Predefined method)
+
+widget --> event attach --> click, key press
+
+step-1:
+button --> click  --> bind event --> attaching event listener
+
+
+button --> attach  --> event listener(click) --> callback --> event handler
+
+predefined functions --> functionality
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
