@@ -1,0 +1,42 @@
+
+exception handling tools:
+
+
+try{		// code which can generate exception
+
+}
+
+catch(){}	// what to do when exception occurs
+
+
+finally
+
+throw and throws
+
+
+
+
+"7676f" --> int --> 7676f
+Layouts
+
+View --> Predefined class in android -->
+	common attributes -->background, text, textcolor, textstyle
+	 TextView, Button, EditText
+
+	and listeners --> setOnClickListner()
+
+and 
+
+ViewGroup --> when u want to place some collection of Views then work with ViewGroup
+
+Layout :
+
+RelativeLayout : always align view or viewgroup relative to the
+		position of child element or parent
+
+advantage : 1. drag and drop
+	    2. set of attributes
+	    3. when you have to avoid nested layouts then work with 		relative layout
+
+
+disadvantage : 1. dependency on siblings or parent 
