@@ -1,0 +1,51 @@
+Activity Life cycle
+
+--> Application --> collection of activities
+
+States of Activity
+
+1. Active (onCreate(), onStart(), onResume()) --> activity is avaialable on 		foreground
+		activity is present for user interaction
+
+2. Pause(onPause()) --> activity is holded for some time
+		activity is partially avaialable on foreground
+
+3. Stop(onStop()) --> when your switch from one activity to another activity.
+		activity is no longer visible on foreground
+
+4. Destroy(onDestroy()) --> when user press back button and exit from the application
+
+
+
+verbose mode --> minimum priority information or less 			important information
+
+debug mode --> 
+
+
+information mode --> 
+
+warning mode --> 
+
+
+error mode -->  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
