@@ -1,0 +1,74 @@
+Intent --> Intent is a predefiend class in android --> android.content
+
+
+--> use intent for:
+
+	--> switch from one activity to another activity
+	--> switch from one application to another application
+	--> to use any predefiend service
+	--> to use broadcast receivers
+
+
+Types of Intent:
+
+--> Implicit Intent --> Automatically -->
+
+	Android OS
+
+	When we want to switch from one application to another application 	then we use implicit intent
+	
+	What is the src --> Current Activity
+	What is the destination --> Destination Activity
+	
+--> Explicit Intent --> Forcefully -->
+
+	Done by the application explicitly
+
+	when we want to switch from one activity to another activity then we 	use explicit intent
+
+	What is the src --> Current Activity
+	What is the destination --> Destination Activity
+
+
+
+setter and getter 
+	
+var name : String 
+
+
+//setter
+void setName(String name){
+
+	this.name = name;
+}
+
+
+Intent getIntent(){
+	
+	return Intent;
+
+}
+
+
+	name(left side) --> value set
+	name(right side) --> value get 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
