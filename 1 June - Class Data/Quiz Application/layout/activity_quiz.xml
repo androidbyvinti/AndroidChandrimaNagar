@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.quizapplication.QuizActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/presence_audio_online"
+            android:background="@android:color/black"/>
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/presence_audio_online"
+            android:background="@android:color/black"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/presence_audio_online"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timerTextView"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:text="what is the value of any argument passed"
+        android:id="@+id/questionsTextView"/>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="optionButtonClicked"
+            android:id="@+id/btn1"
+            android:text="Option1"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:onClick="optionButtonClicked"
+            android:id="@+id/btn2"
+            android:text="Option2"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="optionButtonClicked"
+            android:id="@+id/btn3"
+            android:text="Option3"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:onClick="optionButtonClicked"
+            android:id="@+id/btn4"
+            android:text="Option4"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submitButton"/>
+
+    <!--<RadioGroup-->
+        <!--android:id="@+id/radioGroup"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:checked="true"-->
+            <!--android:text="option 1"-->
+            <!--android:textColorLink="@color/colorStatusBar" />-->
+    <!---->
+        <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="option 2"/>-->
+    <!---->
+        <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="option 3"/>-->
+    <!---->
+        <!--<RadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="option 4"/>-->
+        <!---->
+    <!--</RadioGroup>  -->
+</LinearLayout>
