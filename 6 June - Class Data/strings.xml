@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+
+    <string-array name="cQuestions">
+        <item>What is the size of char?</item>
+        <item>What is the use of pointer?</item>
+        <item>What is malloc?</item>
+        <item>What is the purpose of gets?</item>
+        <item>What is the extension of header file?</item>
+    </string-array>
+
+    <string-array name="cOptions">
+        <item>1 byte</item>
+        <item>2 byte</item>
+        <item>3 byte</item>
+        <item>4 byte</item>
+        <item>To point value</item>
+        <item>To point address of another variable</item>
+        <item>Both of These</item>
+        <item>None of These</item>
+        <item>Memory Release</item>
+        <item>Dynamic Memory Allocation</item>
+        <item>Both of These</item>
+        <item>None of These</item>
+        <item>To get string value</item>
+        <item>To get char value</item>
+        <item>Both of These</item>
+        <item>None of These</item>
+        <item>.h</item>
+        <item>.hd</item>
+        <item>Both of These</item>
+        <item>None of These</item>
+    </string-array>
+
+    <string-array name="cAns">
+        <item>1 byte</item>
+        <item>To point address of another variable</item>
+        <item>Dynamic Memory Allocation</item>
+        <item>To get string value</item>
+        <item>.h</item>
+    </string-array>
+
+</resources>
