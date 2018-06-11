@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.purbleplace.GameActivity"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:background="@android:color/holo_blue_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/card1"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+        <ImageButton
+            android:id="@+id/card2"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+        <ImageButton
+            android:id="@+id/card3"
+            android:background="@drawable/button_background"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+        <ImageButton
+            android:id="@+id/card4"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp">
+
+        <ImageButton
+            android:id="@+id/card5"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+        <ImageButton
+            android:id="@+id/card6"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+        <ImageButton
+            android:id="@+id/card7"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+        <ImageButton
+            android:id="@+id/card8"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/card9"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+        <ImageButton
+            android:id="@+id/card10"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+        <ImageButton
+            android:id="@+id/card11"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+        <ImageButton
+            android:id="@+id/card12"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/button_background"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/flower_icon" />
+
+    </LinearLayout>
+
+</LinearLayout>
